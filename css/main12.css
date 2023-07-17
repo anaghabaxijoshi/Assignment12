@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+  }
+  .row::after{
+    content: "";
+    clear: top;
+    display: table;
+  }
+  [class*="col-"]
+  {
+    float: left;
+    padding: 10px;
+  }
+  .col-1
+  {
+    width: 8.88%;
+  }
+  .col-2
+  {
+    width: 16.66%;
+  }
+  .col-3
+  {
+    width: 25%;
+  }
+  .col-4
+  {
+    width: 33.33%;
+  }
+  .col-5
+  {
+    width: 41.66%;
+  }
+  .col-6
+  {
+    width: 50%;
+  }
+  .col-7
+  {
+     width: 58.33%;
+  }
+  .col-8
+  {
+    width: 66.66%;
+  }
+  .col-9
+  {
+    width: 75%;
+  }
+  .col-10
+  {
+    width: 83.33%;
+  }
+  .col-11
+  {
+    width: 91.66%;
+  }
+  .col-12
+  {
+    width: 100%;
+  }
+
+[class*= "col-"]
+{
+    width: 100%;
+}
+
+@media only screen and (min-width:600px) 
+{
+  .col-1
+  {
+    width: 8.88%;
+  }
+  .col-2
+  {
+    width: 16.66%;
+  }
+  .col-3
+  {
+    width: 25%;
+  }
+  .col-4
+  {
+    width: 33.33%;
+  }
+  .col-5
+  {
+    width: 41.66%;
+  }
+  .col-6
+  {
+    width: 50%;
+  }
+  .col-7
+  {
+     width: 58.33%;
+  }
+  .col-8
+  {
+    width: 66.66%;
+  }
+  .col-9
+  {
+    width: 75%;
+  }
+  .col-10
+  {
+    width: 83.33%;
+  }
+  .col-11
+  {
+    width: 91.66%;
+  }
+  .col-12
+  {
+    width: 100%;
+  }
+}
+
+body
+{
+  background-color: azure;
+  background-image: linear-gradient(to right,white, rgb(137, 149, 149));
+}
+
+header
+{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 2px;
+  font-weight: bold;
+  color: blueviolet;
+}
+fieldset
+{
+    border-color: sienna;
+    background-color: rgb(230, 240, 240);
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#registrationfieldset
+{
+  width: 70%;
+}
+
+.topnav{
+  background-color: rgb(173, 194, 205);
+  position: fixed;
+  width:100%;
+  padding: 5px;
+  }
+
+.topnav li {
+  list-style-type: none;
+  float: right;
+  padding: 5px;
+}
+
+.topnav li a {
+  display: inline;
+  text-align: justify;
+  padding:15px 10px;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.topnav a:link
+{
+  color: black;
+}
+
+.topnav a:hover
+{
+  color: white;
+  background-color: black;
+}
+
+.sidenav
+{
+  position: relative;
+  margin-top: 50px;
+  background-color: rgb(157, 173, 183);
+  border-radius: 5px;
+  border-style: groove;
+  border-color: rgb(151, 190, 209);
+}
+
+.sidenav li
+{
+  list-style-type: none;
+   
+  /*border-radius: 2px;
+  border-style: groove;
+  border-color: rgb(112, 175, 174);*/
+  text-align: justify;
+  padding: 15px;
+  
+}
+
+.sidenav li a
+{
+  text-decoration: none;
+  color: black;
+  display: inline;
+  padding: 5px;
+ 
+}
+
+article
+{
+  position: relative;
+  margin-top: 60px;
+  padding: 5px;
+  background-color: rgb(157, 173, 183);
+  border-radius: 5px;
+  border-style: groove;
+  border-color: rgb(151, 190, 209);
+}
+
+article h2
+{
+  text-align: center;
+  font-style: italic;
+  color: blue;
+}
+
+.sidenav a:link
+{
+  color: black;
+}
+
+.sidenav a:hover
+{
+  color: white;
+  background-color: black;
+}
+
+article form fieldset
+{
+  width: 80%;
+}
+
+
+
