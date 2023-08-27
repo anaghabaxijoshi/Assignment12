@@ -244,5 +244,21 @@ article form fieldset
   width: 80%;
 }
 
+#container1, #container2
+{
+  float: left;
+  width: 200px;
+  height: 300px;
+  margin: 15px;
+  border : 2px solid blue;
+}
 
+#dragitem1, #dragitem2, #dragitem3, #dragitem4,#dragitem5,#dragitem6,#dragitem7
+{
+  background-color: rgb(135, 188, 221);
+  height: 20px;
+  width: auto;
+  border: 1px groove rgb(68, 74, 82);
+  margin: 2px;
+}
 

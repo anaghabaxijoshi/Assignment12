@@ -21,28 +21,35 @@
     <h2>Registration_form</h2>
   </header>  
   
-    <form action="POST" autocomplete="off">
+    <form method="POST" name="personalinfo" autocomplete="off">
       <fieldset id="registrationfieldset">
+        
         <label for="fullname">Fullname : </label>
             <input type="text" name="fullname" id="fullname" placeholder="Firstname Middlename Lastname" size="50"><br>
+        
         <label for="dob">*Date of Birth:</label>
             <input type="year" name="dob" id="dob" placeholder="Year of Birth" required><br>
+
         <label for="email">Enter your Email Address:</label>
             <input type="email" name="email" id="email"><br>
+        
         <label for="sex">*Sex:</label>
             <input type="radio" name="sex" value="Male" required>Male
             <input type="radio" name="sex" value="Female"required>Female
             <input type="radio" name="sex" value="Other" required>Other<br>
+    
         <label for="username">*Username :</label>  
             <input type="text" name="username" id="username" required><br> 
+
         <label for="genderidentity">Gender Identity</label>
-        <select name="genderidentity" id="genderidentity" required>
+          <select name="genderidentity" id="genderidentity" required>
             <option selected disabled >--------</option>
             <option value="option1">Option1</option>
             <option value="option2">Option2</option>
             <option value="option3">Option3</option>
             <option value="other">Other</option>
-        </select> <br>
+          </select> <br>
+    
         <label for="sexorientation">Sex Orientation</label>
             <select name="sexorientation" id="sexorientation" required>
                 <option selected disabled >--------</option>
@@ -51,7 +58,8 @@
                 <option value="bisexual">Bisexual</option>
                 <option value="other">Other</option>
             </select><br><br>
-            <input type="submit" name="submit"><a href="user_profile.html">Temporary access</a><br><br>
+        
+        <input type="submit" name="submit"><a href="user_profile.html">Temporary access</a><br><br>
       </fieldset> 
         
     </form>

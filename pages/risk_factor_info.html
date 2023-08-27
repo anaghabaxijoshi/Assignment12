@@ -12,6 +12,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/main12.css">
+<script src="../script/drag.js"></script>
 <!---Defines the title for the page--->
 <title>Risk Factor Information</title>
 </head>
@@ -38,7 +39,20 @@
         </ul>
       </nav>
      <article class="col-8">
-        <p>Risk Factor Information Page</p>
+        <h1>Risk Factor Information Page</h1>
+        <p> the last 12 months, Drag the options that apply</p>
+        <div id="container1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div id="dragitem1" draggable="true" ondragstart="drag(event)">Had sex with males</div>
+            <div id="dragitem2" draggable="true" ondragstart="drag(event)">Had sex with females</div>
+            <div id="dragitem3" draggable="true" ondragstart="drag(event)">Victim of sexual assault</div>
+            <div id="dragitem4" draggable="true" ondragstart="drag(event)">Homeless</div>
+            <div id="dragitem5" draggable="true" ondragstart="drag(event)">Incarcerated</div>
+            <div id="dragitem6" draggable="true" ondragstart="drag(event)">Possible exposure</div>
+            <div id="dragitem7" draggable="true" ondragstart="drag(event)">Routine screening</div>
+        </div>
+        <div id="container2" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+        </div>
 
      </article>
   </section>
